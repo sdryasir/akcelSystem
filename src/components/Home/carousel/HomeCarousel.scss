@@ -1,0 +1,27 @@
+$blue: #222b5d;
+$green: #42b649;
+$orange: #f59521;
+$grey: #f9f9fa;
+$black: #000000;
+$white: #ffffff;
+.carousel-control-next,
+.carousel-control-prev {
+    width: 3% !important;
+}
+
+.home-carousel-wrap .carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10%;
+    right: 35%;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px 20px;
+    text-align: left;
+}
+
+.home-carousel-wrap .carousel-caption a {
+    background-color: $orange;
+    padding: 8px 8px;
+    color: $blue;
+}

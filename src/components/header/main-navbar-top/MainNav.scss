@@ -1,0 +1,39 @@
+$blue: #222b5d;
+$green: #42b649;
+$orange: #f59521;
+$grey: #f9f9fa;
+$black: #000000;
+$white: #ffffff;
+.main-nav-wrap {
+    background-color: $blue;
+}
+
+.main-nav-wrap .navbar {
+    padding-left: 0 !important;
+}
+
+.main-nav-wrap .navbar-light .navbar-nav .nav-link {
+    color: $white;
+    text-transform: uppercase;
+}
+
+.main-nav-wrap .navbar-light .navbar-nav .nav-link:hover {
+    color: $orange;
+}
+
+.navbar-nav .nav-link i {
+    border: 1px solid $white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.navbar-nav .nav-link i:hover {
+    background-color: $orange;
+    color: $white;
+}
+
+.bg-dark {
+    background-color: $blue !important;
+}

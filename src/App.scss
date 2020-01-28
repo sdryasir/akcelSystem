@@ -1,0 +1,145 @@
+$blue: #222b5d;
+$green: #42b649;
+$orange:#f59521;
+$grey:#f9f9fa;
+$black:#000000;
+$white:#ffffff;
+.App {}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #fff;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    .service {
+        margin-bottom: 20px;
+    }
+    .intro-img {
+        margin-top: 20px;
+    }
+    .intro-img img {
+        width: 100%;
+        height: 360px;
+    }
+    .intro-img-overlay {
+        width: 91%;
+        height: 317px;
+    }
+    .top-contact-area {
+        display: none !important;
+    }
+    .carousel-caption {
+        display: none !important;
+    }
+    .footer-widget h6 {
+        background-color: #fff !important;
+        padding: 8px;
+        margin-left: 0 !important;
+    }
+    .footer-widget .footer-icon {
+        top: 36px !important;
+    }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+    .service {
+        margin-bottom: 20px;
+    }
+    .intro-img {
+        margin-top: 20px;
+    }
+    .intro-img img {
+        width: 100% !important;
+        height: 360px !important;
+    }
+    .intro-img-overlay {
+        width: 96% !important;
+        height: 340px !important;
+    }
+    .intro-img-overlay img {
+        width: 70px !important;
+        height: 70px !important;
+    }
+    .site-map-links {
+        margin-bottom: 20px !important;
+    }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+    .service {
+        margin-bottom: 20px;
+    }
+    .top-contact-area {
+        display: none !important;
+        margin: 0;
+        padding: 10px 0;
+        list-style: none;
+        display: inline-block;
+        float: right;
+    }
+    .top-contact-area-mobile {
+        display: block !important;
+        margin: 0;
+        padding: 10px 0;
+        list-style: none;
+        display: inline-block;
+        float: right;
+    }
+    .top-contact-area-mobile li {
+        display: inline-block;
+        padding: 0 28px;
+        position: relative;
+    }
+    .top-contact-area-mobile li span {
+        position: absolute;
+        left: -3px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: $orange;
+    }
+    .top-contact-area-mobile li span svg {
+        height: 24px;
+        width: 24px;
+    }
+    .top-contact-area-mobile li h6 {
+        margin-bottom: 0;
+    }
+    .top-contact-area-mobile li p {
+        margin-bottom: 0;
+    }
+    .navbar-toggler {
+        background-color: $orange !important;
+        border: none;
+        border-radius: .25rem;
+        outline: none !important;
+    }
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {}
+
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width
